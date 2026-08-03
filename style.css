@@ -1,4 +1,19 @@
-h1{
-    color:blueviolet
-  
+div{
+    width:1800px;
+    border:3px solid blue;
+}
+.hero-image{
+    background-image: url("./20240626_111926.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-text{
+    color: rgb(146, 6, 6);
+    position:absolute;
+    text-align: center;
+    top:100px;
+    width: 100%;
+    font-size:100px;
 }
