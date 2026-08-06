@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 
+=======
+.rectangle1{
+    width:1904px;
+    height: 50px;
+    border:3px;
+    background-color:rgb(204, 46, 6);
+    text-align: right;
+    padding-top: 30px;
+}
+   
+
+.rectangle2{
+    width:1904px;
+    height: 80px;
+    border:3px;
+    background-color:rgb(187, 45, 20);
+}
+>>>>>>> 5915575 (fixeds links)
 .hero-image{
     background-image: url("./20240626_111926.jpg");
     height: 352px;
@@ -14,6 +33,7 @@
     width: 100%;
     font-size:100px;
 } 
+<<<<<<< HEAD
 div{
     top:100;
 }
@@ -32,4 +52,23 @@ div{
 a{
     color: white;
     text-decoration: none;
+=======
+a{
+        padding-right: 30px;
+        text-decoration: none;
+        font-size:30px;
+        color:blueviolet;
+}
+
+
+
+
+
+.attraction-image{
+    background-image: url("./20240626_104441.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+>>>>>>> 5915575 (fixeds links)
 }
