@@ -1,29 +1,22 @@
-<<<<<<< HEAD
-
-=======
 .rectangle1{
-    width:1904px;
+    width:1932px;
     height: 50px;
     border:3px;
     background-color:rgb(204, 46, 6);
     text-align: right;
     padding-top: 30px;
+    margin-left: -20px;  
+    margin-top: -20px;
 }
-   
-
-.rectangle2{
-    width:1904px;
-    height: 80px;
-    border:3px;
-    background-color:rgb(187, 45, 20);
-}
->>>>>>> 5915575 (fixeds links)
 .hero-image{
     background-image: url("./20240626_111926.jpg");
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: -20px;  
+    margin-right: -11px;  
+    width:1932px;
 }
 .hero-text{
     color: rgb(146, 6, 6);
@@ -33,42 +26,23 @@
     width: 100%;
     font-size:100px;
 } 
-<<<<<<< HEAD
-div{
-    top:100;
-}
-.nav-bar{
-    background-color: rgb(51, 0, 255);
-    display: flex;
-    justify-content: flex-end; 
-    padding: 20px 20px 20px 20px;
-    
-}
-.circle-images{
-    width:100px;
-    height: 100px;
-    border-radius: 790px;    
-}
 a{
-    color: white;
-    text-decoration: none;
-=======
-a{
-        padding-right: 30px;
+       margin-right: 20px;
         text-decoration: none;
         font-size:30px;
-        color:blueviolet;
+        color:rgb(255, 255, 255);
+        border: 3px solid rgb(0, 0, 0);
+        background-color: rgb(112, 9, 15);
 }
-
-
-
-
-
 .attraction-image{
     background-image: url("./20240626_104441.jpg");
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
->>>>>>> 5915575 (fixeds links)
+}
+img{
+    border-radius: 200px;
+    width:400px;
+    height: 400px;
 }
