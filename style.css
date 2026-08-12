@@ -1,5 +1,17 @@
 .rectangle1{
     width:1917px;
+    height: 37px;
+    background-color:rgb(138,0,23);
+    text-align: right;
+    padding-top: 20px;
+    margin-left: -20px;  
+    margin-top: -9px;
+    border-bottom:3px solid rgb(255, 255, 255);
+    border-top:3px solid rgb(255, 255, 255);
+    background-image: url("./TE\ puia\ one.jpg");
+}
+.rectangle2{
+    width:1917px;
     height: 50px;
     background-color:rgb(138,0,23);
     text-align: right;
@@ -55,5 +67,6 @@ img{
     padding-bottom: 8px;
 }
 .index-text{
-    text-align: center;
+    text-align:center;
+    border:3px solid yellow;
 }
