@@ -6,6 +6,7 @@
     padding-top: 20px;
     margin-left: -20px;  
     margin-top: -9px;
+    margin-bottom:-8px;
     border-bottom:3px solid rgb(255, 255, 255);
     border-top:3px solid rgb(255, 255, 255);
     background-image: url("./TE\ puia\ one.jpg");
@@ -18,8 +19,9 @@
     padding-top: 20px;
     margin-left: -20px;  
     margin-top: -9px;
-    border-bottom:3px solid rgb(255, 255, 255);
-    border-top:3px solid rgb(255, 255, 255);
+    border-bottom:1x solid rgb(255, 255, 255);
+    border-top:1px solid rgb(255, 255, 255);
+    margin-bottom:0px;
 }
 .hero-image{
     background-image: url("./20240626_111926.jpg");
@@ -44,6 +46,8 @@ a{
     margin-right: 20px;
     font-size:35px;
     color:rgb(255, 255, 255);
+    margin-bottom:10px;
+
 }
 .attraction-image{
     background-image: url("./20240626_104441.jpg");
@@ -66,7 +70,15 @@ img{
     margin-left:-10px;
     padding-bottom: 8px;
 }
-.index-text{
+.index-text{ 
     text-align:center;
-    border:3px solid yellow;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:1015px;
+    padding-left:450px;
+    padding-right: 447px;
+    margin-left:-15px;
+    font-size:large;
+    background-color:blanchedalmond;
+    margin-top:-30px;
+    
 }
