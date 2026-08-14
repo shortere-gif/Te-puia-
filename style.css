@@ -1,12 +1,37 @@
 .rectangle1{
+<<<<<<< HEAD
     width:1932px;
     height: 50px;
     border:3px;
+=======
+    width:1917px;
+    height: 37px;
+>>>>>>> 18445766c7478a1a4e052c8d5f395e00b4ff357e
     background-color:rgb(138,0,23);
     text-align: right;
     padding-top: 20px;
     margin-left: -20px;  
+<<<<<<< HEAD
     margin-top: -20px;
+=======
+    margin-top: -9px;
+    margin-bottom:-8px;
+    border-bottom:3px solid rgb(255, 255, 255);
+    border-top:3px solid rgb(255, 255, 255);
+    background-image: url("./TE\ puia\ one.jpg");
+}
+.rectangle2{
+    width:1917px;
+    height: 50px;
+    background-color:rgb(138,0,23);
+    text-align: right;
+    padding-top: 20px;
+    margin-left: -20px;  
+    margin-top: -9px;
+    border-bottom:1x solid rgb(255, 255, 255);
+    border-top:1px solid rgb(255, 255, 255);
+    margin-bottom:0px;
+>>>>>>> 18445766c7478a1a4e052c8d5f395e00b4ff357e
 }
 .hero-image{
     background-image: url("./20240626_111926.jpg");
@@ -16,11 +41,15 @@
     background-size: cover;
     margin-left: -20px;  
     margin-right: -11px;    
+<<<<<<< HEAD
     width:1932px;
+=======
+    width:1917px;
+>>>>>>> 18445766c7478a1a4e052c8d5f395e00b4ff357e
 }
 .hero-text{
     color: rgb(146, 6, 6);
-    position:absolute;
+    position: absolute;
     text-align: center;
     top:100px;
     width: 100%;
@@ -29,11 +58,18 @@
 } 
 a{
     margin-right: 20px;
+<<<<<<< HEAD
     text-decoration: none;
     font-size:35px;
     color:rgb(255, 255, 255);
     border:1px solid rgb(252, 252, 252);
     -webkit-text-stroke: 1px rgb(125, 75, 75);
+=======
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    margin-bottom:10px;
+
+>>>>>>> 18445766c7478a1a4e052c8d5f395e00b4ff357e
 }
 .attraction-image{
     background-image: url("./20240626_104441.jpg");
@@ -47,6 +83,7 @@ img{
     width:400px;
     height: 400px;
     padding-top: 20px;
+<<<<<<< HEAD
 }
 .index-text{
     text-align:center;
@@ -56,3 +93,26 @@ img{
 }
 
 
+=======
+    margin-left:45px;
+}
+.image-background{
+    width: 1907px;
+    height: 440px;
+    background-color: rgb(92, 89, 87); 
+    margin-left:-10px;
+    padding-bottom: 8px;
+}
+.index-text{ 
+    text-align:center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width:1015px;
+    padding-left:450px;
+    padding-right: 447px;
+    margin-left:-15px;
+    font-size:large;
+    background-color:blanchedalmond;
+    margin-top:-30px;
+    
+}
+>>>>>>> 18445766c7478a1a4e052c8d5f395e00b4ff357e
