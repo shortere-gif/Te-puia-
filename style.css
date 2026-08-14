@@ -1,4 +1,23 @@
 /*
+     This is the code for
+     the footers on each page
+ */
+ .footer-background{
+    background-color:royalblue;
+    padding: 45px 20px;
+    height:100%;
+ }
+ .footer{
+    width:500px;
+    background-color:rgb(65, 225, 148);
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-300px;
+    padding: 40px 20px;
+ }
+
+/*
      The a are the commands for
      the navigation links
 */
@@ -50,6 +69,9 @@ a{
     border-bottom:3x solid rgb(255, 255, 255);
     border-top:3px solid rgb(255, 255, 255);
 }
+/*
+     This is the ABOUT TE PUIA section
+*/
 .index-text{ 
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -61,7 +83,7 @@ a{
     background-color:blanchedalmond;
     margin-top:-30px;
     margin-bottom:-20px;
-    padding-bottom:5px;
+    padding-bottom:11px;
 }
 /* 
      The circle-background and text
@@ -76,9 +98,14 @@ a{
 }
 .circle-text{
   background-color: rgb(92, 89, 87); 
-  width: 1897px;
+  width: 1907px;
   height: 50px;
-  
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-top:-30px;
+  padding-left: 225px;
+  color: rgb(209, 225, 209);
+  font-size: 30px;
 }
 /*
      This is all the measurements
@@ -94,7 +121,7 @@ img{
 /*
         Hero-image is the title image on the index page
 */
-.hero-image{
+.index-hero-image{
     background-image: url("./20240626_111926.jpg");
     height: 352px;
     background-position: center;
@@ -110,7 +137,6 @@ img{
 */
 .hero-text{
     color: rgb(146, 6, 6);
-    position: absolute;
     text-align: center;
     top:100px;
     width: 100%;
@@ -120,13 +146,52 @@ img{
 /*
      This is the end of the Index Page Styles
 */
+
+
+
+
 /*
      This is the start of the Attractions Page Styles
 */
+/*
+        Hero-image is the title image on the Attractions page
+*/
 .attraction-hero-image{
-    background-image: url("./20240626_104441.jpg");
+    background-image: url("./20240626_111926.jpg");
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-left: -20px;  
+    margin-right: -11px;    
+    width:1917px;
+     border-top:3px solid rgb(255, 255, 255);
 }
+
+
+
+
+/*
+     This is the start of the Schools Page Styles
+*/
+/*
+        Hero-image is the title image on the Schools page
+*/
+.schools-hero-image{
+    background-image: url("./20240626_111926.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;  
+    margin-right: -11px;    
+    width:1917px;
+     border-top:3px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
