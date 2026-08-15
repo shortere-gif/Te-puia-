@@ -6,6 +6,9 @@
     background-color:royalblue;
     padding: 45px 20px;
     height:100%;
+     margin-top:300px;
+     width:1865px;
+     margin-left:-8px;
  }
  .footer{
     width:500px;
@@ -13,7 +16,7 @@
     text-align: center;
     margin-left:auto;
     margin-right:auto;
-    margin-top:-300px;
+    margin-top:300px;
     padding: 40px 20px;
  }
 
@@ -98,7 +101,7 @@ a{
 }
 .circle-text{
   background-color: rgb(92, 89, 87); 
-  width: 1907px;
+  width: 1682px;
   height: 50px;
   margin-left:-10px;
   margin-right:-10px;
