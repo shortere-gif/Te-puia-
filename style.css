@@ -3,21 +3,21 @@
      the footers on each page
  */
  .footer-background{
-    background-color:royalblue;
+    background-color:rgb(130, 132, 139);
     padding: 45px 20px;
-    height:100%;
-     margin-top:300px;
+    height:80px;
+   padding-bottom:120px;
      width:1865px;
      margin-left:-8px;
  }
  .footer{
     width:500px;
-    background-color:rgb(65, 225, 148);
+    background-color:rgb(188, 216, 203);
     text-align: center;
     margin-left:auto;
     margin-right:auto;
-    margin-top:300px;
     padding: 40px 20px;
+    border-radius: 40px;
  }
 
 /*
