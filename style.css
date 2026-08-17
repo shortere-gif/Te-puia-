@@ -1,3 +1,42 @@
+/*
+     This is the code for
+     the footers on each page
+ */
+ .footer-background{
+    background-color:royalblue;
+    padding: 45px 20px;
+    height:100%;
+     margin-top:300px;
+     width:1865px;
+     margin-left:-8px;
+ }
+ .footer{
+    width:500px;
+    background-color:rgb(65, 225, 148);
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:300px;
+    padding: 40px 20px;
+ }
+
+/*
+     The a are the commands for
+     the navigation links
+*/
+a{
+    margin-right: 20px;
+    font-size:35px;
+    color:rgb(255, 255, 255);
+    margin-bottom:10px;
+
+}
+/*
+     This is the start of the Index Page Styles
+*/
+/*
+     Rectangle on index page
+*/
 .rectangle1{
     width:1917px;
     height: 37px;
@@ -7,8 +46,6 @@
     margin-left: -20px;  
     margin-top: -9px;
     margin-bottom:-8px;
-    border-bottom:3px solid rgb(255, 255, 255);
-    border-top:3px solid rgb(255, 255, 255);
     background-image: url("./TE\ puia\ one.jpg");
 }
 .rectangle2{
@@ -18,58 +55,26 @@
     text-align: right;
     padding-top: 20px;
     margin-left: -20px;  
-    margin-top: -9px;
-    border-bottom:1x solid rgb(255, 255, 255);
-    border-top:1px solid rgb(255, 255, 255);
+    margin-top: -8px;
     margin-bottom:0px;
+    border-bottom:3x solid rgb(255, 255, 255);
+    border-top:3px solid rgb(255, 255, 255);
 }
-.hero-image{
-    background-image: url("./20240626_111926.jpg");
-    height: 352px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -20px;  
-    margin-right: -11px;    
+.rectangle3{
     width:1917px;
-}
-.hero-text{
-    color: rgb(146, 6, 6);
-    position: absolute;
-    text-align: center;
-    top:100px;
-    width: 100%;
-    font-size:100px;
-    -webkit-text-stroke: 2px white;
-} 
-a{
-    margin-right: 20px;
-    font-size:35px;
-    color:rgb(255, 255, 255);
-    margin-bottom:10px;
-
-}
-.attraction-image{
-    background-image: url("./20240626_104441.jpg");
-    height: 352px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-img{
-    border-radius: 200px;
-    width:400px;
-    height: 400px;
+    height: 50px;
+    background-color:rgb(138,0,23);
+    text-align: right;
     padding-top: 20px;
-    margin-left:45px;
+    margin-left: -20px;  
+    margin-top: -6px;
+    margin-bottom:-5px;
+    border-bottom:3x solid rgb(255, 255, 255);
+    border-top:3px solid rgb(255, 255, 255);
 }
-.image-background{
-    width: 1907px;
-    height: 440px;
-    background-color: rgb(92, 89, 87); 
-    margin-left:-10px;
-    padding-bottom: 8px;
-}
+/*
+     This is the ABOUT TE PUIA section
+*/
 .index-text{ 
     text-align:center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -80,5 +85,116 @@ img{
     font-size:large;
     background-color:blanchedalmond;
     margin-top:-30px;
-    
+    margin-bottom:-20px;
+    padding-bottom:11px;
 }
+/* 
+     The circle-background and text
+     are for the circle-images on the index page
+*/
+.circle-background{
+    width: 1907px;
+    height: 440px;
+    background-color: rgb(92, 89, 87); 
+    margin-left:-10px;
+    padding-bottom: 8px;
+}
+.circle-text{
+  background-color: rgb(92, 89, 87); 
+  width: 1682px;
+  height: 50px;
+  margin-left:-10px;
+  margin-right:-10px;
+  margin-top:-30px;
+  padding-left: 225px;
+  color: rgb(209, 225, 209);
+  font-size: 30px;
+}
+/*
+     This is all the measurements
+     for the images on the index page
+ */
+img{
+    border-radius: 200px;
+    width:400px;
+    height: 400px;
+    padding-top: 20px;
+    margin-left:45px;
+}
+/*
+        Hero-image is the title image on the index page
+*/
+.index-hero-image{
+    background-image: url("./20240626_111926.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;  
+    margin-right: -11px;    
+    width:1917px;
+     border-top:3px solid rgb(255, 255, 255);
+}
+/*
+     This is the text that appears over the hero image
+*/
+.hero-text{
+    color: rgb(146, 6, 6);
+    text-align: center;
+    top:100px;
+    width: 100%;
+    font-size:100px;
+    -webkit-text-stroke: 2px white;
+} 
+/*
+     This is the end of the Index Page Styles
+*/
+
+
+
+
+/*
+     This is the start of the Attractions Page Styles
+*/
+/*
+        Hero-image is the title image on the Attractions page
+*/
+.attraction-hero-image{
+    background-image: url("./20240626_111926.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;  
+    margin-right: -11px;    
+    width:1917px;
+     border-top:3px solid rgb(255, 255, 255);
+}
+
+
+
+
+/*
+     This is the start of the Schools Page Styles
+*/
+/*
+        Hero-image is the title image on the Schools page
+*/
+.schools-hero-image{
+    background-image: url("./20240626_111926.jpg");
+    height: 352px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -20px;  
+    margin-right: -11px;    
+    width:1917px;
+     border-top:3px solid rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
