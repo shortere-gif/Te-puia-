@@ -3,7 +3,10 @@
      the footers on each page
  */
  .footer-background{
-    background-color:rgb(92, 90, 87);
+    background-image: url("./footer\ background.jpg");
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 20px;
     height:80px;
     padding-bottom:120px;
@@ -13,7 +16,10 @@
     margin-bottom:-8px;
  }
   .index-footer-background{
-    background-color:rgb(87, 92, 88);
+    background-image: url("./footer\ background.jpg");
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 30px 20px;
     height:80px;
     padding-bottom:120px;
@@ -32,6 +38,9 @@
     border-radius: 50px;
     border: 3px solid rgb(0, 0, 0);
  }
+img {
+width:100%
+}
 
 /*
      The a are the commands for
@@ -135,7 +144,7 @@ a{
     color:rgb(255, 255, 255);
     margin-top: -8px;
 }
-.circle-colour h3 { 
+.circle-colour h2 { 
     color:white;
 }
 /* 
@@ -147,7 +156,7 @@ a{
     align-items: center;
     text-align: center;
     flex: 1;
-    border:3px solid rgb(201, 188, 190);
+    border:3px solid rgb(188, 201, 196);
 }
 .circle-image {
     width: 440px;
@@ -174,7 +183,7 @@ a{
 /*
      This is the text that appears over the hero image
 */
-.hero-text{
+.index-hero-text{
     color: rgb(146, 6, 6);
     text-align: center;
     top:100px;
@@ -193,19 +202,32 @@ a{
      This is the start of the Attractions Page Styles
 */
 /*
-        Hero-image is the title image on the Attractions page
+        Attractions is the title image on the Attractions page
 */
-.attraction-hero-image{
-    background-image: url("./20240626_111926.jpg");
-    height: 352px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -20px;  
-    margin-right: -11px;    
-    width:1932px;
-     border-top:3px solid rgb(255, 255, 255);
+.attractions-header{
+    text-align: center;
+    padding-left:500px;
+    font-size:50px;
+    -webkit-text-stroke: 2px rgb(122, 28, 28);
 }
+.two-column{
+    display:grid;
+    grid-template-columns: 1fr 3fr;
+    gap:50px;
+    margin:auto;
+    width:80%;
+    padding-left:50px;
+}
+.middle-section {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    width: 80%;
+    margin: auto;
+}
+
 
 
 
@@ -225,5 +247,35 @@ a{
     margin-left: -20px;  
     margin-right: -11px;    
     width:1932px;
-     border-top:3px solid rgb(255, 255, 255);
+    border-top:3px solid rgb(36, 127, 24);
+}
+.text-colour p{
+    color:blueviolet;
+}
+.text-colour h2{
+    color:blueviolet;
+}
+.info-boxes{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    width: 1906px;
+    font-size: 17px;
+    margin-left: -30px;
+    padding-right:15px;
+    background-color:blanchedalmond ;
+    padding-left: 21px;
+    
+}
+.schools-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    border:3px solid rgb(37, 185, 128);
+    background-color: brown
+    padding-bottom: 300px;
 }
