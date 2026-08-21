@@ -3,6 +3,10 @@
      the footers on each page
  */
  .footer-background{
+    background-image: url("./footer\ background.jpg");
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color:rgb(92, 90, 87);
     padding: 30px 20px;
     height:80px;
@@ -13,6 +17,10 @@
     margin-bottom:-8px;
  }
   .index-footer-background{
+    background-image: url("./footer\ background.jpg");
+    object-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color:rgb(87, 92, 88);
     padding: 30px 20px;
     height:80px;
@@ -32,7 +40,9 @@
     border-radius: 50px;
     border: 3px solid rgb(0, 0, 0);
  }
-
+img{
+    width:600px;
+}
 /*
      The a are the commands for
      the navigation links
@@ -73,6 +83,7 @@ a{
     border-bottom:3x solid rgb(255, 255, 255);
     border-top:3px solid rgb(255, 255, 255);
 }
+
 .index-rectangle2{
     width:1917px;
     height: 50px;
@@ -135,7 +146,7 @@ a{
     color:rgb(255, 255, 255);
     margin-top: -8px;
 }
-.circle-colour h3 { 
+.circle-colour h2 { 
     color:white;
 }
 /* 
@@ -195,16 +206,19 @@ a{
 /*
         Hero-image is the title image on the Attractions page
 */
-.attraction-hero-image{
-    background-image: url("./20240626_111926.jpg");
-    height: 352px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-left: -20px;  
-    margin-right: -11px;    
-    width:1932px;
-     border-top:3px solid rgb(255, 255, 255);
+.two-column{
+    display:flex;
+    gap:100px;
+    margin-left:300px;
+    margin:10px 10px 10px 10px;
+}
+.middle-section{
+    display:flex;
+    gap:50px;
+    text-align:center;
+}   
+.info{
+    line-height:15px;
 }
 
 
@@ -226,4 +240,38 @@ a{
     margin-right: -11px;    
     width:1932px;
      border-top:3px solid rgb(255, 255, 255);
+}
+.info-boxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px 0;
+    width: 1906px;
+    font-size: 17px;
+    height: 580px;
+    margin-left: -30px;
+    background-color: blanchedalmond;
+    padding-left: 21px;
+}
+.text-colour p {
+    color:rgb(0, 0, 0);
+    margin-top: -8px;
+
+}
+.text-colour h2 { 
+    color:rgb(0, 0, 0);
+}
+/* 
+     Individual item column 
+*/
+.school-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    border:3px solid rgb(201, 188, 190);
+
+    
 }
