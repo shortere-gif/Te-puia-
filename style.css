@@ -67,7 +67,6 @@ a:hover{
 .rectangle1{
     width:1917px;
     height: 37px;
-    background-color:rgb(138,0,23);
     text-align: right;
     padding-top: 20px;
     margin-left: -20px;  
@@ -232,18 +231,19 @@ a:hover{
     text-align:center;
 }   
 .info{
-    line-height:15px;
+
 }
 .attraction-hero-image{
-    background-image: url("./20240626_111926.jpg");
+    background-image: url("./20240626_104441.jpg");
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 30%;
+    background-size:cover;
     margin-left: -20px;  
     margin-right: -11px;    
     width:1932px;
-     border-top:3px solid rgb(255, 255, 255);
+    border-top:3px solid rgb(255, 255, 255);
 }
 .attraction-hero-text{
     color: rgb(146, 6, 6);
@@ -262,16 +262,17 @@ a:hover{
 /*
         Hero-image is the title image on the Schools page
 */
-.schools-hero-image{
-    background-image: url("./20240626_111926.jpg");
+.school-hero-image{
+    background-image: url("./20240626_110417.jpg");
     height: 352px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-size:100%;
     margin-left: -20px;  
     margin-right: -11px;    
     width:1932px;
-     border-top:3px solid rgb(255, 255, 255);
+    border-top:3px solid rgb(255, 255, 255);
 }
 .school-hero-text{
     color: rgb(146, 6, 6);
@@ -289,8 +290,9 @@ a:hover{
     padding: 20px 0;
     width: 1906px;
     font-size: 17px;
-    height: 580px;
-    margin-left: -30px;
+    height: 430px;
+    margin-left: -15px;
+    padding-right:-5px;
     background-color: blanchedalmond;
     padding-left: 21px;
 }
@@ -301,6 +303,9 @@ a:hover{
 }
 .text-colour h2 { 
     color:rgb(0, 0, 0);
+}
+.school-item{
+    color:blueviolet;
 }
 /* 
      Individual item column 
